@@ -52,6 +52,8 @@ We also show the distribution of **ok** and **junk** annotations below. More det
 
 Do note that we only publish the annotations and not the actual data. Please contact the original author Relja Arandjelovic (relja@relja.info) to access the Tokyo 24/7 Google Street View dataset.
 
+
+
 ## Generate your own annotations
 
 Ensure all path arguments are set correctly in all the scripts before running. 
