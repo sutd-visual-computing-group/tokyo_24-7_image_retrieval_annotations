@@ -1,4 +1,4 @@
-Tokyo 24/7 Image Retrieval Annotations
+# Tokyo 24/7 Image Retrieval Annotations
 
 ## Introduction
 
@@ -18,13 +18,37 @@ In this work, we annotate a subset of the original Tokyo 24/7 Dataset following 
 
 
 
-## Annotation Explanation
+## Annotation Details
 
 | File Name               | Details                                                      |
 | ----------------------- | ------------------------------------------------------------ |
-| <query_number>.txt      | Contains filenames of dataset images of the same easting of 4 significant figures (*i.e. :* 03821XX), that are within 25 meters of <query_number>.jpg |
+| <query_number>.txt      | Contains filenames of dataset images of the same easting to 4 significant figures (*i.e. :* 03821XX), that are within 25 meters of <query_number>.jpg |
 | <query_number>_ok.txt   | `ok` indicates images where more than 25% of a distinct object is clearly visible, or Intersection over Union is approximately more than 25%. This annotation is performed on the dataset images from <query_number>.txt above. |
 | <query_number>_junk.txt | `junk` indicates images where less than 25% of a distinct object is clearly visible, or Intersection over Union is approximately less than 25%. This annotation is performed on the dataset images from <query_number>.txt above. |
+
+**All annotated data can be found under /gt**
+
+
+
+## Annotation Statistics
+
+We provide some basic statistics of the resulting annotations.
+
+| Statistic                                         | Details |
+| ------------------------------------------------- | ------- |
+| Number of Unique Geo-locations                    | 49      |
+| Number of Queries per geo-location/ Total Queries | 3 / 147 |
+| Total number of subset images                     | 16000   |
+
+We also show the distribution of **ok** and **junk** annotations below.
+
+![](./kde_plot.png)
+
+## Generate your own annotations
+
+
+
+
 
 
 
