@@ -26,8 +26,6 @@ In this work, we annotate a subset of the original Tokyo 24/7 Dataset following 
 | <query_number>_ok.txt   | `ok` indicates images where more than 25% of a distinct object is clearly visible, or Intersection over Union is approximately more than 25%. This annotation is performed on the dataset images from <query_number>.txt above. |
 | <query_number>_junk.txt | `junk` indicates images where less than 25% of a distinct object is clearly visible, or Intersection over Union is approximately less than 25%. This annotation is performed on the dataset images from <query_number>.txt above. |
 
-**All annotated data can be found under /gt**
-
 
 
 ## Annotation Statistics
@@ -40,15 +38,35 @@ We provide some basic statistics of the resulting annotations.
 | Number of Queries per geo-location/ Total Queries | 3 / 147 |
 | Total number of subset images                     | 16000   |
 
-We also show the distribution of **ok** and **junk** annotations below.
+We also show the distribution of **ok** and **junk** annotations below. More details and statistics regarding the dataset can be found in the original paper [[1]](#1).
 
 ![](./kde_plot.png)
 
+
+
+## Using the Annotations
+
+- All annotations (txt files) can be found under */gt*. 
+
+- Source code can be found at */src*.
+
+Do note that we only publish the annotations and not the actual data. Please contact the original author [Relja Arandjelovic](relja@relja.info) (Deepmind) to access the Tokyo 24/7 Google Street View dataset.
+
+
+
 ## Generate your own annotations
 
+Ensure all path arguments are set correctly in all the scripts before running. 
 
+- `readallquerycsv.py` reads all csv files in the folder (and subfolders) and collates the image name and coordinates into one `output.csv`. 
+  This allows the user to sort the list by easting and extract all queries of the same easting.
 
+- `readquerycsv_<easting>.py` can used in a folder that contains only queries of one easting to generate `queryinfo_<easting>.csv`.
 
+- `readimgcsv_<easting>.py` can be used in a folder that contains dataset images of one easting to generate `imginfo_<easting>.csv`. It is also slightly modified as dataset csvs are differently formatted from query csvs.
+
+- `generateGT_<easting>.py` uses `queryinfo_<easting>.csv` and `imginfo_<easting>.csv` to generate `<query_number>.txt` files.
+  Use these files to manually label the corresponding images as `ok` and `junk`  to create your own annotations. 
 
 
 
