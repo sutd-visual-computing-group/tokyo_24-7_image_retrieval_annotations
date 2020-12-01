@@ -1,5 +1,5 @@
 # Tokyo 24/7 Google Street View Image Retrieval Annotations
-To help visual-geolocalization research, we publish a subset of manually annotated Tokyo 24/7 Google Street View Dataset originally released by Torii *et al* [[1]](#1). It consists of 16,000 dataset images and 49 distinct query locations taken at day/evening/night resulting in a total of 147 query images.
+To help visual-geolocalization research, we publish a subset of manually annotated Tokyo 24/7 Google Street View Dataset originally released by Torii *et al* [[1]](#1). It consists of 16,000 dataset images and 49 distinct query locations taken at day/evening/night resulting in a total of 147 query images. There are no explicit ground truths provided for image retrieval applications, and we generally use provided GPS locations to select ground truths/ candidate points for image retrieval.
 
 
 ## References
