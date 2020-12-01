@@ -2,7 +2,7 @@
 
 ## Introduction
 
-To help visual-geolocalization research, we publish a subset of manually annotated Tokyo 24/7 Google Street View Dataset originally released by Torii *et al* [[1]](#1).  There are no explicit ground truths provided in the dataset, and generally the provided GPS locations are used to select ground truths for image retrieval applications. 
+To help visual-geo-localization research, we publish a subset of manually annotated Tokyo 24/7 Google Street View Dataset originally released by Torii *et al* [[1]](#1).  There are no explicit ground truths provided in the dataset, and generally the provided GPS locations are used to select ground truths for image retrieval applications. 
 
 In this work, we annotate a subset of the original Tokyo 24/7 Dataset following a similar convention as Oxford5k [[2]](#2) and Paris6k [[3]](#3) datasets.  The annotated subset consists of 16,000 dataset images and 49 distinct query locations taken at day/evening/night, resulting in a total of 147 query images.
 
