@@ -70,7 +70,7 @@ Ensure all path arguments are set correctly in all the scripts before running.
 
 ## Acknowledgements
 
-This work was done by Jeremy Ngo (Engineering Systems Design) during his internship at Temasek Laboratories, Singapore University of Technology and Design (Jun 2020- Aug 2020). Please contact him at [jeremy_ngo@mymail.sutd.edu.sg](mailto:jeremy_ngo@mymail.sutd.edu.sg?subject=[Tokyo 24/7 Annotations]) regarding any further questions. 
+This work was done by Jeremy Ngo (Engineering Systems Design) during his internship at Temasek Laboratories, Singapore University of Technology and Design (Jun 2020- Aug 2020). Please contact him at jeremy_ngo@mymail.sutd.edu.sg regarding any further questions. 
 
 
 
