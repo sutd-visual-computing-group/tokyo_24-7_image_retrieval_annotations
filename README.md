@@ -1,0 +1,2 @@
+# tokyo_24_7_gsv_image_retrieval_annotations
+Manually annotated subset of Tokyo 24/7 Google Street View Dataset [24/7 place recognition by view synthesis](https://openaccess.thecvf.com/content_cvpr_2015/papers/Torii_247_Place_Recognition_2015_CVPR_paper.pdf) for Image Retrieval research. It consists of 16,000 dataset images and 49 distinct query locations taken at day/evening/night for a total of 147 query images.
