@@ -1,4 +1,5 @@
-# Tokyo 24/7 Image Retrieval Annotations
+Tokyo 24/7 Image Retrieval Annotations
+
 ## Introduction
 
 To help visual-geolocalization research, we publish a subset of manually annotated Tokyo 24/7 Google Street View Dataset originally released by Torii *et al* [[1]](#1).  There are no explicit ground truths provided in the dataset, and generally the provided GPS locations are used to select ground truths for image retrieval applications. 
@@ -14,6 +15,16 @@ In this work, we annotate a subset of the original Tokyo 24/7 Dataset following 
 3. image-csv's were then generated for the dataset images within these three eastings.
 4. By comparing the coordinates between query and dataset images of the same easting, .txt files containing potential positives for each query are generated.
 5. The .txt files are manually reviewed and annotated to determine positives and junks.
+
+
+
+## Annotation Explanation
+
+| File Name               | Details                                                      |
+| ----------------------- | ------------------------------------------------------------ |
+| <query_number>.txt      | Contains filenames of dataset images of the same easting of 4 significant figures (*i.e. :* 03821XX), that are within 25 meters of <query_number>.jpg |
+| <query_number>_ok.txt   | `ok` indicates images where more than 25% of a distinct object is clearly visible, or Intersection over Union is approximately more than 25%. This annotation is performed on the dataset images from <query_number>.txt above. |
+| <query_number>_junk.txt | `junk` indicates images where less than 25% of a distinct object is clearly visible, or Intersection over Union is approximately less than 25%. This annotation is performed on the dataset images from <query_number>.txt above. |
 
 
 
