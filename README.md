@@ -68,6 +68,12 @@ Ensure all path arguments are set correctly in all the scripts before running.
 
 
 
+## Acknowledgements
+
+This work was done by Jeremy Ngo (Engineering Systems Design) during his internship at Temasek Laboratories, Singapore University of Technology and Design (Jun 2020- Aug 2020). Please contact him at [jeremy_ngo@mymail.sutd.edu.sg](mailto:jeremy_ngo@mymail.sutd.edu.sg?subject=[Tokyo 24/7 Annotations]) regarding any further questions. 
+
+
+
 ## References
 
 <a id="1">[1]</a> A. Torii, R. Arandjelović, J. Sivic, M. Okutomi and T. Pajdla, "24/7 place recognition by view synthesis," 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Boston, MA, 2015, pp. 1808-1817, doi: 10.1109/CVPR.2015.7298790.
