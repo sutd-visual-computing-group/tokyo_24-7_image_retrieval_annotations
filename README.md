@@ -50,7 +50,7 @@ We also show the distribution of **ok** and **junk** annotations below. More det
 
 - Source code can be found at */src*.
 
-Do note that we only publish the annotations and not the actual data. Please contact the original author [Relja Arandjelovic](mailto:relja@relja.info?subject=[Request]%20Tokyo%2024/7%20Dataset) (Deepmind) to access the Tokyo 24/7 Google Street View dataset.
+Do note that we only publish the annotations and not the actual data. Please contact the original author Relja Arandjelovic (relja@relja.info) to access the Tokyo 24/7 Google Street View dataset.
 
 ## Generate your own annotations
 
