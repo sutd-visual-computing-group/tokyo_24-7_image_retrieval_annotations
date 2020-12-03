@@ -40,7 +40,23 @@ We provide some basic statistics of the resulting annotations.
 
 We also show the distribution of **ok** and **junk** annotations below. More details and statistics regarding the dataset can be found in the original paper [[1]](#1).
 
-![](./kde_plot.png)
+![](./assets/kde_plot.png)
+
+
+
+## Annotation Samples
+
+In this section we show an example. The query image is shown below.
+
+![Query Image](./assets/00028.jpg)
+
+
+
+A few images corresponding to annotations ok (row 1), junk (row 2) and bad (row 3) annotations are shown below. By `bad`, we refer to the images that are within 25m and are not annotated as `ok` or `junk`. 
+
+![](./assets/annotation_sample.jpg)
+
+
 
 
 
